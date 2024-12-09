@@ -1,0 +1,9 @@
+{
+	"id": "obsidian-file-encrypt",
+	"name": "File Encryption",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "加密和解密 Obsidian 文件",
+	"author": "garfcat",
+	"isDesktopOnly": false
+}

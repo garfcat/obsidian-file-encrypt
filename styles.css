@@ -1,0 +1,45 @@
+/*
+
+This CSS file will be included with your plugin, and
+available in the app when your plugin is enabled.
+
+If your plugin does not need CSS, delete this file.
+
+*/
+
+.encrypted-notice {
+    background-color: var(--background-secondary);
+    color: var(--text-muted);
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-left: 4px solid var(--color-red);
+}
+
+.encrypted-notice button {
+    background-color: var(--interactive-accent);
+    color: var(--text-on-accent);
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.encrypted-notice button:hover {
+    background-color: var(--interactive-accent-hover);
+}
+
+.encrypted-file-readonly .cm-content {
+    pointer-events: none !important;
+}
+
+.encrypted-file-readonly .cm-line {
+    cursor: default !important;
+}
+
+.encrypted-file-readonly .cm-editor {
+    background-color: var(--background-secondary);
+}
